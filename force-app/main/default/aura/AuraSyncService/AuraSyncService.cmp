@@ -1,0 +1,3 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" controller="PartSyncService">
+    <lightning:button label="Sync Parts" onclick="{! c.syncPartss }" variant="brand"/>
+</aura:component>
